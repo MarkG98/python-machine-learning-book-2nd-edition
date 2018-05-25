@@ -681,7 +681,7 @@ dot_data = export_graphviz(tree,
                                           'petal width'],
                            out_file=None) 
 graph = graph_from_dot_data(dot_data) 
-graph.write_png('tree.png') 
+graph.write_png('tree.png')
 
 
 
